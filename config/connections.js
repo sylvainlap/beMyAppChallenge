@@ -1,16 +1,10 @@
 module.exports.connections = {
 
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
-
-  someMongodbServer: {
+  mongodbServer: {
     adapter: 'sails-mongo',
     host: 'localhost',
-    port: 27017
-    // user: 'username',
-    // password: 'password',
-    // database: 'your_mongo_db_name_here'
+    port: 27017,
+    database: 'beMyApp'
   }
 
 };

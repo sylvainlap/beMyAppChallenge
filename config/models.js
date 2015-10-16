@@ -1,6 +1,6 @@
 module.exports.models = {
 
-  connection: 'localDiskDb',
+  connection: 'mongodbServer',
   migrate: 'alter',
   schema: true
 

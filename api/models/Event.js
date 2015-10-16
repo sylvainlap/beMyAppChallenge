@@ -3,17 +3,13 @@ module.exports = {
   attributes: {
     name: {
       type: 'string',
+      required: true
+    },
+    url: {
+      type: 'string',
+      url: true,
       required: true,
       unique: true
-    },
-    country: {
-      type: 'string'
-    },
-    town: {
-      type: 'string'
-    },
-    date: {
-      type: 'string'
     }
   }
 
