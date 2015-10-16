@@ -2,19 +2,19 @@
 
 ## install
 
-1. install MongoDB
+- install MongoDB
 ```
 sudo apt-get install mongodb
 ```
-2. install dependencies
+- install dependencies
 ```
 npm install
 ```
-3. start the app
+- start the app
 ```
 node app
 ```
-4. enjoy the REST api on http://localhost:1337/events
+- enjoy the REST api on http://localhost:1337/events
 
 ## model
 
